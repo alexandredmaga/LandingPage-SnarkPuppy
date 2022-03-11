@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 10px 45px;
+    background-color:rgb(245, 245, 245);
+    max-width: 1400px;
+    font-family: poppinsregular;
+    margin: 0 auto;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-logo{
+    flex-direction: column;
+    line-height: 25px;
+}
+
+
+li {
+    display: inline-block;
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(39, 39, 39);
+   
+}
+
+a:hover {
+    color: rgb(141, 235, 239);
+    transition: 0.3s all;
+}
+
+#select {
+    border: solid 2px rgb(141, 235, 239);
+    padding: 5px;
+    border-radius: 50px ;
+}
+
+#select:hover {
+    background-color: rgb(141, 235, 239);
+    color: white;
+    transition: 0.3s all;
+}
+
+h1 {
+    
+    color:rgb(39, 39, 39);
+    font-weight: 400;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+}
+
+
+h2 {
+    font-size: 50px;
+    line-height: 40px;
+    color: rgb(39, 39, 39);
+    font-family: poppinsmedium;
+   
+    
+}
+
+
+p {
+    margin:20px 0 20px;
+    line-height: 20px;
+    max-width: 500px;
+    font-family:poppinslight;
+}
+
+img {
+    width: 580px;
+    margin-left:200px ;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(141, 235, 239);
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+   cursor: pointer;
+   background-color: rgb(56, 206, 211);
+}
+
+input {
+    margin-top: 20px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    
+}
